@@ -211,6 +211,12 @@
     outline: none;
   }
   
+  .button[disabled] {
+    cursor: not-allowed;
+    border: #a1a1a1;
+    background: #c1c1c1;
+    color: #a1a1a1;
+  }
   .open {
       display: block !important;
   }
